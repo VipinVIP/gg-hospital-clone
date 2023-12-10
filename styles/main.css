@@ -37,14 +37,13 @@
   /* position: absolute; */
 }
 .deprat-txt {
-  font-size: 17px;
+  font-size: 12px;
   padding-right: 30px;
-
-  /* position: absolute; */
+  letter-spacing: 0.36px;
   z-index: 5;
-  top: 580%;
 }
-.redm {
+
+.deprat-txt span, .redm {
   color: #17c1a3;
 }
 #doctorss {
@@ -167,6 +166,8 @@
 }
 .int-wrap-news {
   position: relative;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -336,4 +337,25 @@
 }
 .footer-write-txt-content {
   padding: 15px !important;
+}
+
+.arrow-parent{
+  position: relative;
+}
+.arrow-group{
+  position: absolute;
+  right:50px;
+  top:5%;
+}
+.ag1{
+  right:60px;
+}
+.ag3{
+  right: -110%;
+}
+.arrowl,.arrowr{
+  width:30px;
+}
+.arrowl{
+  opacity: 40%;
 }
