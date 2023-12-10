@@ -1,0 +1,82 @@
+#banner-image {
+    width: 100%;
+  }
+  .second-section {
+    position: relative;
+  }
+  .container-in-image {
+    position: absolute;
+    top: 20%;
+    padding: 50px;
+  }
+  .text-in-image {
+    width: 250px;
+  }
+  
+  .formbox {
+    border: 1px solid white;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 20px 20px 0 grey;
+    width: 80%;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    padding: 10px;
+  }
+  .flex-inputs {
+    display: flex;
+  }
+  .formbox h3 {
+    margin: 10px;
+  }
+  .flex-inputs input,
+  select {
+    flex: 1;
+    padding: 15px;
+    margin: 10px;
+    appearance: none;
+    border: 1px solid #000;
+    background-color: white;
+    border-radius: 0.25rem;
+  }
+  .buttons-under-slogan {
+    display: flex;
+    align-items: center;
+  }
+  .buttons-under-slogan input {
+    padding: 15px;
+    margin: 10px;
+  }
+  .play-image{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  .play-image span{
+    margin-left: 10px;
+    text-decoration: underline;
+  }
+  .play-image img {
+    width: 20px;
+  }
+  
+  select,
+  input::placeholder,
+  input[type="date"] {
+    color: #9e9e9e;
+    opacity: 1;
+  }
+  
+  option:not(:first-of-type) {
+    color: black;
+  }
+  
+  input[type="button"], .view-all {
+    background: #17c1a3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+  }
+  
