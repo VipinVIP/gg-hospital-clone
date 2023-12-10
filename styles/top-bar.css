@@ -9,8 +9,9 @@
     top: 20%;
     padding: 50px;
   }
-  .text-in-image {
-    width: 250px;
+  
+  .text-in-image p{
+    margin:20px 0;
   }
   
   .formbox {
