@@ -1,6 +1,6 @@
 # gg-hospital-clone
 
-A clone of the website of GG-Hospital. Done as part  Not responsive currently.
+A clone of the website of GG-Hospital. Done as part of ILP program in experion technologies. Not responsive currently.
 
 ## Screenshots
 
